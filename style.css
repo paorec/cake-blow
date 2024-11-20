@@ -1,14 +1,14 @@
 body {
-  background-color: #333;
+  background-color: #191919;
 }
 
-.candle-count-display {
+/* .candle-count-display {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
-  color: #6A4B18;
+  color: #363636;
   background-color: #F0E4D0;
   padding: 10px;
   border-radius: 10px;
@@ -17,14 +17,30 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid #553C13;
-}
+} 
 
 .candle-count-display span {
   font-weight: bold;
-  color: #AD030F;
+  color: #000000;
+}  */
+
+
+#message {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position to center on screen */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  color: green;
+  font-size: 2em; /* Increase font size */
+  font-family: "Palatino", serif; /* Change the font */
+  /*background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center the text inside the box */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
 }
 
-.cake {
+ .cake {
   position: absolute;
   width: 250px;
   height: 200px;
@@ -55,9 +71,9 @@ body {
   width: 250px;
   height: 100px;
   border-radius: 50%;
-  background-color: #553c13;
-  box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b, 0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b, 0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a, 0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09, 0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09;
-}
+  background-color: #0f0f0f;
+  box-shadow: 0 2px 0px #141414, 0 4px 0px #141414, 0 6px 0px #141414, 0 8px 0px #141414, 0 10px 0px #141414, 0 12px 0px #141414, 0 14px 0px #141414, 0 16px 0px #141414, 0 18px 0px #141414, 0 20px 0px #141414, 0 22px 0px #141414, 0 24px 0px #141414, 0 26px 0px #141414, 0 28px 0px #141414, 0 30px 0px #141414;
+} */
 
 .layer-top {
   top: 0px;
@@ -74,7 +90,7 @@ body {
 .icing {
   top: 2px;
   left: 5px;
-  background-color: #f0e4d0;
+  background-color: #f0d0d0;
   width: 240px;
   height: 90px;
   border-radius: 50%;
@@ -124,7 +140,7 @@ body {
 }
 
 .candle {
-  background-color: #7B020B;
+  background-color: #000000;
   width: 12px;
   height: 35px;
   border-radius: 6px/3px;
@@ -141,7 +157,7 @@ body {
   width: 12px;
   height: 6px;
   border-radius: 50%;
-  background-color: #ad030f;
+  background-color: #222222;
 }
 
 .candle.out .flame {

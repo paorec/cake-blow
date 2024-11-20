@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
       (candle) => !candle.classList.contains("out")
     ).length;
     candleCountDisplay.textContent = activeCandles;
+
+    if (activeCandles === 0) {
+      const message = document.getElementById("message");
+      message.textContent = "¡que chingue su madre el cumpleañero! tqm tonoto <3";
+      message.style.display = "block"; // Ensure the message is visible
+    }
   }
 
   function addCandle(left, top) {
